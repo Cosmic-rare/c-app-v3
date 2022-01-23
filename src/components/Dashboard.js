@@ -1,17 +1,13 @@
-import { useState } from 'react'
+import { useState } from "react"
 
-import Topics from './Topics';
-import Messages from './Messages';
-import SendMessage from './SendMessage';
-import Header from './Header';
+import Topics from "./Topics"
+import Messages from "./Messages"
+import SendMessage from "./SendMessage"
+import Header from "./Header"
 
-export default function Dashboard() {
-
-  // Get topics out
+const  Dashboard = (props) => {
   const topics = ["雑談1", "雑談2"]
-
-  // Local state
-  const [activeTopic, changeActiveTopic] = useState(topics[0]);
+  const [activeTopic, changeActiveTopic] = useState(topics[0])
 
   const user = "eric#1234"
 
@@ -26,3 +22,5 @@ export default function Dashboard() {
     </div >
   )
 }
+
+export default Dashboard

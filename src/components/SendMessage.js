@@ -1,7 +1,7 @@
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import TextField from "@material-ui/core/TextField"
+import Button from "@material-ui/core/Button"
 
-export default function SendMessage(props) {
+const SendMessage = (props) => {
   return (
     <div className="send-messages-grid">
       <div className="send-message-container">
@@ -17,3 +17,5 @@ export default function SendMessage(props) {
     </div >
   )
 }
+
+export default SendMessage

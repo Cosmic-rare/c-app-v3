@@ -1,17 +1,19 @@
-import React from 'react'
+import React from "react"
 
-import { Chip, Icon } from '@material-ui/core';
+import { Chip, Icon } from "@material-ui/core"
 
-export default function Messages() {
+const Messages = (props) => {
   return (
     <div className="messages-grid">
       <div className="messages-container">
 
         <div className="message">
-          <Chip avatar={<Icon>person</Icon>} label={"message.from" + ' ' + "message.msg"} />
+          <Chip avatar={<Icon>person</Icon>} label={"message.from" + " " + "message.msg"} />
         </div>
 
       </div>
     </div>
   )
 }
+
+export default Messages

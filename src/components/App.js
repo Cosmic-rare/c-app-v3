@@ -1,21 +1,18 @@
-import './App.css';
-import Dashboard from './Dashboard';
+import "./App.css"
+import Dashboard from "./Dashboard"
 
-import green from '@material-ui/core/colors/green';
-
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createTheme, ThemeProvider } from "@material-ui/core/styles"
 
 const theme = createTheme({
   palette: {
-    type: 'dark',
+    type: "dark",
     primary: {
-      main: '#7289da'
+      main: "#7289da"
     }
   }
 })
 
-
-function App() {
+const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Dashboard></Dashboard>
@@ -23,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

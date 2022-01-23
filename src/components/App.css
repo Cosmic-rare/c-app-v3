@@ -1,18 +1,9 @@
-body {
-  margin: 0;
-}
-
-
-/* Header.jsx */
-
+/* Header.js */
 .navbar {
   z-index: 100;
 }
 
-
-
 /* Dashboard */
-
 .grid-container {
   height: calc(100vh - 64px);
   display: grid;
@@ -38,7 +29,7 @@ body {
   background: #2c2f33;
 }
 
-/* Topics.jsx */
+/* Topics.js */
 .topics-container {
   height: 100%;
   padding: 1em;
@@ -46,7 +37,7 @@ body {
   color: white;
 }
 
-/* Messages.jsx */
+/* Messages.js */
 .messages-container {
   bottom: 0px;
   padding: 1em;
@@ -62,7 +53,7 @@ body {
   padding: 0.3em;
 }
 
-/* SendMessage.jsx */
+/* SendMessage.js */
 .send-message-container {
   height: 100%;
   padding: 1em;
