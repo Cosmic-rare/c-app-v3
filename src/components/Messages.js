@@ -1,15 +1,22 @@
 import React from "react"
+import logo from "../logo.svg"
 
 import { Chip, Icon } from "@material-ui/core"
 
 const Messages = (props) => {
+  const { messages } = props
+
   return (
     <div className="messages-grid">
       <div className="messages-container">
 
-        <div className="message">
-          <Chip avatar={<Icon>person</Icon>} label={"message.from" + " " + "message.msg"} />
-        </div>
+        {messages.map((message) => {
+          return (
+            <div className="message" key={message.id}>
+              <Chip avatar={<Icon><img src={logo} /></Icon>} label={message.from + " " + message.msg} />
+            </div>
+          )
+        })}
 
       </div>
     </div>
