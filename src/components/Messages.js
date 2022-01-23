@@ -7,18 +7,16 @@ const Messages = (props) => {
   const { messages } = props
 
   return (
-    <div className="messages-grid">
-      <div className="messages-container">
+    <div className="messages-container">
 
-        {messages.map((message) => {
-          return (
-            <div className="message" key={message.id}>
-              <Chip avatar={<Icon><img src={logo} /></Icon>} label={message.from + " " + message.msg} />
-            </div>
-          )
-        })}
+      {messages.map((message) => {
+        return (
+          <div className="message" key={message.id}>
+            <Chip avatar={<Icon><img src={logo} /></Icon>} label={message.from + " " + message.msg} />
+          </div>
+        )
+      })}
 
-      </div>
     </div>
   )
 }
