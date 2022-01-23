@@ -2,8 +2,6 @@
 
 ## Features
 
----
-
 Implemented Features
 
 - [ ] imitate Discord (perfectly)
