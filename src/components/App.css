@@ -125,3 +125,23 @@
   }
 
 }
+
+
+.user-options {
+  position: absolute;
+  padding: 8px 16px 8px 16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #2a2c31;
+  list-style: none;
+}
+
+.user-logo {
+  width: 40px;
+}
+
+.messages-li {
+  opacity: 1; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

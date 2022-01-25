@@ -7,7 +7,11 @@ import Header from "./Header"
 
 const Dashboard = (props) => {
   const topics = ["雑談1", "雑談2"]
-  const messages = [{ from: "Tani", msg: "Hello", id: 0 }, { from: "Tani", msg: "👍", id: 1 }]
+  const messages = [
+    { from: "Tani", msg: "Hello", id: 0, date: "2021/01/01(火) 12:00" },
+    { from: "Tani", msg: "👍", id: 1, date: "2021/01/01(火) 12:00" },
+    { from: "Tani", msg: "👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍", id: 2, date: "2021/01/01(火) 12:00" }
+  ]
   const [activeTopic, changeActiveTopic] = useState(topics[0])
 
   const user = "eric#1234"

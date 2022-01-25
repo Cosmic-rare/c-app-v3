@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../logo.svg"
 
 import List from "@material-ui/core/List"
 import ListItem from "@material-ui/core/ListItem"
