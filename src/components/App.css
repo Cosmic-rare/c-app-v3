@@ -47,6 +47,7 @@
 .messages-container {
   bottom: 0px;
   padding: 1em;
+  padding-bottom: 0;
   box-sizing: border-box;
   position: absolute;
   width: 100%;
@@ -136,12 +137,4 @@
   box-sizing: border-box;
   background: #2a2c31;
   list-style: none;
-}
-
-.user-logo {
-  width: 40px;
-}
-
-.messages-li {
-  opacity: 1; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }

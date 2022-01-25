@@ -11,6 +11,13 @@
   border-top-color: rgb(66, 69, 74);
 }
 
+.hr-bar {
+  border-top: 2px solid #42454a;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: rgb(66, 69, 74);
+}
+
 .message-content {
   flex: 1 1 auto;
 }

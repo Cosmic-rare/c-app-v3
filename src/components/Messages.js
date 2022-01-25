@@ -25,6 +25,7 @@ const Messages = (props) => {
           </div>
         );
       })}
+      <div className="hr-bar" />
     </div>
   );
 };
