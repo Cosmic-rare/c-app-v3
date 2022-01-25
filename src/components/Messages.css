@@ -5,6 +5,7 @@
 .message {
   display: flex;
   padding: 16px;
+  align-items: flex-start;
   border-top: 2px solid #42454a;
   border-top-width: 2px;
   border-top-style: solid;
