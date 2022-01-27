@@ -4,9 +4,14 @@
   z-index: 100;
 }
 
-
-
-
+/* support iOS */
+html{
+  height: -webkit-fill-available;
+}
+body{
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
 
 /* Dashboard */
 
@@ -97,7 +102,7 @@
 /* MEDIA QUERIES FOR DESKTOP */
 @media only screen and (min-width: 600px) {
   .grid-container {
-    height: calc(100vh - 64px);
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1.5fr 0.5fr;
@@ -114,7 +119,7 @@
 
 @media only screen and (max-width: 599px) {
   .grid-container {
-    height: calc(100vh - 56px);
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1.7fr 0.1fr;

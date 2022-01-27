@@ -18,13 +18,15 @@ const Dashboard = (props) => {
 
   return (
     <div>
-      <Header activeTopic={activeTopic} topics={topics} />
+      
       <div className="grid-container">
+      
         <div className="topics-grid">
           <Topics topics={topics} changeActiveTopic={changeActiveTopic} />
         </div>
 
         <div className="messages-grid">
+        <Header activeTopic={activeTopic} topics={topics} />
           <Messages activeTopic={activeTopic} messages={messages} />
         </div>
 
